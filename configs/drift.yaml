@@ -1,0 +1,15 @@
+reference_window_days: 56
+monitor_window_days: 7
+minimum_labeled_rows: 1000
+
+triggers:
+  rolling_mae_ratio: 1.25
+  residual_mean_zscore: 3.0
+  feature_psi: 0.20
+
+retraining_strategies:
+  - fixed
+  - weekly
+  - monthly
+  - drift_triggered
+

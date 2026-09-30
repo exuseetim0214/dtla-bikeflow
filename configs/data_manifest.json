@@ -1,0 +1,47 @@
+{
+  "source_page": "https://bikeshare.metro.net/about/data/",
+  "trip_archives": [
+    {
+      "quarter": "2024-q2",
+      "url": "https://bikeshare.metro.net/wp-content/uploads/2024/07/metro-trips-2024-q2.zip"
+    },
+    {
+      "quarter": "2024-q3",
+      "url": "https://bikeshare.metro.net/wp-content/uploads/2024/10/metro-trips-2024-q3.zip"
+    },
+    {
+      "quarter": "2024-q4",
+      "url": "https://bikeshare.metro.net/wp-content/uploads/2025/01/metro-trips-2024-q4.zip"
+    },
+    {
+      "quarter": "2025-q1",
+      "url": "https://bikeshare.metro.net/wp-content/uploads/2025/04/metro-trips-2025-q1.zip"
+    },
+    {
+      "quarter": "2025-q2",
+      "url": "https://bikeshare.metro.net/wp-content/uploads/2025/07/metro-trips-2025-q2.zip"
+    },
+    {
+      "quarter": "2025-q3",
+      "url": "https://bikeshare.metro.net/wp-content/uploads/2025/10/metro-trips-2025-q3.zip"
+    },
+    {
+      "quarter": "2025-q4",
+      "url": "https://bikeshare.metro.net/wp-content/uploads/2026/01/metro-trips-2025-q4.zip"
+    },
+    {
+      "quarter": "2026-q1",
+      "url": "https://bikeshare.metro.net/wp-content/uploads/2026/04/metro-trips-2026-q1.zip"
+    },
+    {
+      "quarter": "2026-q2",
+      "url": "https://bikeshare.metro.net/wp-content/uploads/2026/07/metro-trips-2026-q2.zip"
+    }
+  ],
+  "station_table": {
+    "as_of": "2026-07-15",
+    "url": "https://bikeshare.metro.net/wp-content/uploads/2026/07/metro-bike-share-stations-2026-07-15.csv"
+  },
+  "live_station_geojson": "https://bikeshare.metro.net/stations/json/"
+}
+

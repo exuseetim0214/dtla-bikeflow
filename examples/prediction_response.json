@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-01T15:00:00-07:00",
+  "forecast_horizon_minutes": 30,
+  "stations": [
+    {
+      "station_id": 3005,
+      "station_name": "7th & Flower",
+      "latitude": 34.0485,
+      "longitude": -118.258537,
+      "predicted_departures": 6.4,
+      "predicted_arrivals": 3.1,
+      "predicted_net_flow": -3.3,
+      "empty_probability": null,
+      "full_probability": null,
+      "availability_note": "Unavailable until historical status snapshots are collected"
+    }
+  ]
+}
+

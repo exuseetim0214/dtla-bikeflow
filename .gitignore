@@ -1,0 +1,32 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Raw and generated data stay local. Keep only documentation/placeholders.
+data/raw/**
+!data/raw/.gitkeep
+data/interim/**
+!data/interim/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+data/status/**
+!data/status/.gitkeep
+
+# Models and run artifacts are reproducible outputs.
+artifacts/**
+!artifacts/.gitkeep
+outputs/**
+!outputs/.gitkeep
+
+# Notebook checkpoints and local dashboard state.
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+

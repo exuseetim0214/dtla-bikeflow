@@ -1,0 +1,28 @@
+seed: 42
+primary_metric: mae
+
+baseline:
+  strategy: seasonal_mean
+  seasonal_lags: [48, 336, 672, 1008, 1344]
+
+regression:
+  backend: lightgbm
+  fallback_backend: hist_gradient_boosting
+  objective: poisson
+  params:
+    n_estimators: 500
+    learning_rate: 0.05
+    num_leaves: 63
+    max_depth: -1
+    min_child_samples: 40
+    subsample: 0.9
+    colsample_bytree: 0.9
+    reg_lambda: 1.0
+    random_state: 42
+
+classification:
+  backend: lightgbm
+  objective: binary
+  class_weight: balanced
+  calibration: isotonic
+

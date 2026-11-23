@@ -2,6 +2,8 @@
 
 | Document | Purpose |
 |---|---|
+| [Step-by-step guide](step_by_step_guide.md) | End-to-end implementation, commands, and actual behavior |
+| [Full-run results report](../reports/full_results_report.md) | November 22 full-model evaluation and operating patterns |
 | [Architecture](architecture.md) | Components, storage layers, and online/offline flow |
 | [Data pipeline](data-pipeline.md) | Download, validation, DTLA joins, panel construction |
 | [Modeling](modeling.md) | Targets, features, baselines, LightGBM, leakage controls |

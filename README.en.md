@@ -5,6 +5,13 @@ nine official quarterly trip files into a station-by-30-minute panel, predicts d
 and net flow at 30/60-minute horizons, and provides the collection and labeling path required for
 real empty/full station risk.
 
+For actual implementation details and the full run completed on November 22, 2026, start with the
+[step-by-step guide](docs/step_by_step_guide.md) and
+[results report](reports/full_results_report.md). The saved model forecasts 30-minute departures;
+arrival/60-minute targets are prepared but those estimators and availability classifiers are not
+trained. Across 150 test stations, MAE is 0.140041 and RMSE 0.338774. The seasonal-baseline MAE gain is
+only 0.17%, and the always-zero predictor has lower MAE, so the current model is experimental.
+
 ## Included
 
 - Official-data downloader with atomic writes and SHA-256 manifests.

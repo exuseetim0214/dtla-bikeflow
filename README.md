@@ -61,6 +61,16 @@ flowchart LR
 
 ## 预测目标
 
+最新全量实验与实际实现状态请优先阅读：
+
+- [Step-by-step implementation guide](docs/step_by_step_guide.md)
+- [Full-run results and operational report](reports/full_results_report.md)
+
+2026-11-22 全量运行覆盖 150 个测试站点、639,897 个测试样本，实际模型为 sklearn Poisson
+gradient boosting。整体 MAE 为 0.140041，RMSE 为 0.338774。相对季节均值，MAE 仅改善
+0.17%，RMSE 改善 10.54%；始终预测零的 MAE 更低。下述 30/60 分钟流量与风险部分同时包含
+已实现的数据目标和后续设计，目前训练入口只拟合 30 分钟出发量，尚未训练空站/满站分类器。
+
 ### 需求回归
 
 ```text
